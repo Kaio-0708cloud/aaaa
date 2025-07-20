@@ -10,7 +10,7 @@ def time_secreto():
     while True:
         for i in dicas:
             print(i)
-            time = input("Qual o time: ".lower().strip())
+            time = input("Qual o time: ").lower().strip()
 
             if time == time_certo:
                 print("PARABÉNS! SRN!")
